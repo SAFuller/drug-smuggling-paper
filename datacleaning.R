@@ -10,3 +10,5 @@ gtdgroup<-aggregate(eventid~gname+iyear+imonth, data=gtd, FUN=length)
 
 #merge
 gtddrug<-merge(gtdgroup,drugdata, by.x="gname", by.y="GTD.name")
+
+#testing testing
